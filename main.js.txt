@@ -1,0 +1,40 @@
+const pricePencil = 15.678;
+const pricePen = 123.965;
+const priceRuler = 90.2345;
+
+// Завдання 1
+console.log(Math.max(pricePencil, pricePen, priceRuler));
+
+// Завдання 2
+console.log(Math.min(pricePencil, pricePen, priceRuler));
+
+// Завдання 3
+let sumallitems = pricePencil + pricePen+ priceRuler;
+console.log(sumallitems);
+
+// Завдання 4
+console.log(Math.floor(Math.trunc(pricePencil) + Math.trunc(pricePen) + Math.trunc(priceRuler)));
+
+// Завдання 5
+console.log(Math.round(sumallitems));
+
+// Завдання 6
+function isEvennumber{return integer Amount%2===0;true:false}
+
+// Завдання 7
+let change = 500;
+console.log(500 - priceallitems);
+
+// Завдання 8
+console.log(+((priceallitems / 3).toFixed(2))10);
+
+// Завдання 9
+let randomSale = Math.trunc(Math.random() * 100);
+console.log(randomSale);
+// amountToPay = випадкова сума до оплати
+let amountToPay = 700;
+let sale = (+((amountToPay * randomSale) / 100).toFixed(2));
+let profit = (amountToPay / 2) - sale;
+console.log(profit)
+© 2021 GitHub, Inc.
+
