@@ -1,33 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lecture #1 "Variables and Data types " </title>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./css/style.css">
-  <title>Lecture #1 Variables and Data types"</title>
-</head>
-<body/>
- <script src="./main.js"></script> 
- <div class="container">
-    <ul>
-      <li>The maximal number 123.96 грн.</li>
-      <li>Minimal number- 15.678 грн.</li>
-      <li>Sum- 229.8775 грн.</li>
-      <li>The sum rounded in less side- 228грн.</li>
-      <li>Sum  rouded to hundreds- 230 грн.</li>
-      <li>The boolean meaning- true</li>
-      <li>The rest 500 грн.- 270.1225 грн.</li>
-      <li>
-        The average price rounded to second sign after the point- 76.63 грн.
-      </li>
-      <li>Net income (random) - 56грн.</li>
-    </ul>
-  </div>
-
-  <script src="./main.js"></script>
-</body>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Cursor. Home work #1</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <h1>VARIABLES DATA TYPE</h1>
+  <table border>
+    <tr>
+      <td>pricePencil</td>
+      <td>15.678</td>
+    </tr>
+    <tr>
+      <td>pricePen</td>
+      <td>123.965</td>
+    </tr>
+    <tr>
+      <td>priceRuler</td>
+      <td>90.2345</td>
+    </tr>
+    <tr>
+      <td>Math.max</td>
+      <td>123.965</td>
+    </tr>
+    <tr>
+      <td>Math.min</td>
+      <td>15.678</td>
+    </tr>
+    <tr>
+      <td>sumAllItems</td>
+      <td>229.8775</td>
+    </tr>
+    <tr>
+      <td>integerAmount</td>
+      <td>228</td>
+    </tr>
+    <tr>
+      <td>roundToHundreds</td>
+      <td>200</td>
+    </tr>
+    <tr>
+       <td>change</td>
+       <td>270.1225</td>
+    </tr>
+    <tr>
+      <td>avg</td>
+      <td>76</td>
+    </tr>
+    <tr>
+      <td>randomSale</td>
+      <td>56</td>
+    </tr>
+    <tr>
+      <td>profit</td>
+      <td>48</td>
+    </tr>
+  <body>
+    <script src="script.js"></script>
+  </body>
+</html>
